@@ -42,6 +42,26 @@ Before running the application, ensure you have the following dependencies insta
 
    ```bash
    streamlit run user-interface.py
+
+## Docker Setup (Optional)
+
+Alternatively, you can run the application using Docker. Follow these steps:
+
+1. Build the Docker image:
+
+   ```bash
+   docker build -t tts-app .
+   ```
+
+2. Run the Docker container:
+
+   ```bash
+   docker run -p 8501:8501 tts-app
+   ```
+
+   Replace `8501` with the desired port number if you want to use a different port.
+
+3. Access the application in your web browser at `http://localhost:8501`.
    ```
 
 ## Usage
@@ -60,3 +80,14 @@ This application utilizes the following libraries:
 - [requests](https://docs.python-requests.org/en/latest/): For making HTTP requests to the TTS API.
 - [tortoise-tts](https://github.com/username/tortoise-tts): [Brief description of tortoise-tts.]
 - [rvc](https://github.com/username/rvc): [Brief description of rvc.]
+
+
+
+
+
+
+
+
+
+
+
