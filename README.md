@@ -10,6 +10,9 @@ This is a Streamlit web application that utilizes a Text-to-Speech (TTS) voice c
 - **Real-time Generation:** Upon submitting the input prompt and selected emotion, the application sends a request to the TTS API, generates the audio, and displays it to the user in real-time.
 - **Easy Integration:** Built using Streamlit, making it easy to deploy and integrate into various environments.
 
+## Schema
+![Schema](./Capture%20d'écran%202024-03-22%20153544.png)
+
 ## Prerequisites
 
 Before running the application, ensure you have the following dependencies installed:
