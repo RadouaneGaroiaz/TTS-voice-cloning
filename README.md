@@ -82,7 +82,6 @@ This application utilizes the following libraries:
 - [Streamlit](https://streamlit.io/): For building interactive web applications with Python.
 - [requests](https://docs.python-requests.org/en/latest/): For making HTTP requests to the TTS API.
 - [tortoise-tts](https://github.com/neonbjb/tortoise-tts):
-- [rvc](https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI):
 
 
 
