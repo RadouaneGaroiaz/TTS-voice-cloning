@@ -22,3 +22,7 @@ EXPOSE 8501
 
 # Command to run the Streamlit app
 CMD ["streamlit", "run", "user-interface.py"]
+
+# Add a simple test
+RUN echo "Running simple test..."
+RUN python test.py
