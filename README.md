@@ -41,7 +41,7 @@ Before running the application, ensure you have the following dependencies insta
 4. Run the Streamlit application:
 
    ```bash
-   streamlit run user-interface.py
+   streamlit run app.py
 
 ## Docker Setup (Optional)
 
