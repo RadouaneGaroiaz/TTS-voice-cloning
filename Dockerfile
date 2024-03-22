@@ -20,9 +20,11 @@ COPY . .
 # Expose the port where Streamlit runs
 EXPOSE 8501
 
-# Command to run the Streamlit app
-CMD ["streamlit", "run", "user-interface.py"]
-
 # Add a simple test
 RUN echo "Running simple test..."
 RUN python test.py
+
+# Command to run the Streamlit app
+CMD ["streamlit", "run", "user-interface.py"]
+
+
